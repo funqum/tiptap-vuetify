@@ -7,6 +7,7 @@ import uk from './uk'
 import ptbr from './ptbr'
 import tr from './tr'
 import he from './he'
+import zhHans from './zhHans'
 import ConsoleLogger from '~/logging/ConsoleLogger'
 import { TiptapVuetifyPlugin } from '~/main'
 
@@ -20,7 +21,8 @@ export const dictionary = {
   uk,
   ptbr,
   tr,
-  he
+  he,
+  zhHans
 }
 
 export function getCurrentLang () {
